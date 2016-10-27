@@ -166,6 +166,7 @@ export interface FacebookUiParams {
      * The UI dialog that is being invoked. This is a required field.
      */
     method: any;
+    href: string; 
 }
 
 export interface FacebookAuthResponse {
